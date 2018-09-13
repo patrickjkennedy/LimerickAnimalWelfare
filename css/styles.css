@@ -10,6 +10,11 @@ li {
     float: left;
 }
 
+#donate {
+  float: right;
+  background-color: #faec50;
+}
+
 li a {
     display: block;
     color: white;
@@ -18,8 +23,42 @@ li a {
     text-decoration: none;
 }
 
+#donate a {
+  color: black;
+}
+
 /* Change the link color on hover */
 li a:hover {
     background-color: #faec50;
     color: black;
+}
+
+/* CSS below adapted from four column version on https://www.w3schools.com/howto/howto_css_image_grid_responsive.asp */
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create three equal columns that sits next to each other */
+.column {
+  flex: 32%;
+  max-width: 32%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+  height: auto;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
 }
