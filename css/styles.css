@@ -29,11 +29,14 @@ ul {
 
 li {
     float: left;
+    font-weight: 900;  
 }
 
 #donate {
   float: right;
-  background-color: #faec50;
+  background-color: white;
+  color: #489d2d;
+  font-weight: 900;  
 }
 
 li a {
@@ -72,6 +75,7 @@ li a:hover {
   font-weight: 200;
   letter-spacing: 2px;
   opacity: 0.7;
+  margin-bottom: 100px;
 }
 
 .banner a {
@@ -79,6 +83,19 @@ li a:hover {
   color: white;
   border-radius: 5px;
   padding; 20px;
+}
+
+#banner-donate {
+  background: white;
+  border-radius: 5px;
+  color: black;
+  padding: 25px;
+  font-weight: 900;
+}
+
+#banner-donate:hover {
+  background-color: #faec50;
+  color: black;
 }
 
 /* Page-specific banner properties (e.g. image path)*/
