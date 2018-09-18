@@ -108,8 +108,11 @@ li a:hover {
   background-image: url("../images/splash-gallery.jpg");
 }
 
+#banner-about {
+  background-image: url("../images/splash-about.jpg");
+}
 
-.landing-card {
+.content-card {
   margin: 20px;
   padding: 20px;
   text-align: center;
@@ -122,6 +125,15 @@ footer {
   color: white;
   padding: 20px;
   text-align: center;
+}
+
+/* About Page CSS*/
+#about-div {
+  text-align: center;
+}
+
+#about-div iframe {
+  padding: 20px;
 }
 
 
