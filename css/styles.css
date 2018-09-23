@@ -85,7 +85,7 @@ li a:hover {
   padding; 20px;
 }
 
-#banner-donate {
+#banner-donate-link {
   background: white;
   border-radius: 5px;
   color: black;
@@ -93,7 +93,7 @@ li a:hover {
   font-weight: 900;
 }
 
-#banner-donate:hover {
+#banner-donate-link:hover {
   background-color: #faec50;
   color: black;
 }
@@ -114,6 +114,10 @@ li a:hover {
 
 #banner-contact {
   background-image: url("../images/splash-contact.jpg");
+}
+
+#banner-donate {
+  background-image: url("../images/splash-donate.jpg");
 }
 
 .content-card {
@@ -226,3 +230,37 @@ input[type=submit]:hover {
 .card_desc {
   padding: 2px 16px;
 }
+
+/* Donation page*/
+/* I used the CSS table styling tutorial on W3 Schools as a starting point and made my own changes
+https://www.w3schools.com/css/tryit.asp?filename=trycss_table_padding*/
+
+#donation-table {
+  margin: 20px;
+}
+
+table, td, th {    
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 15px;
+  text-align: center;
+}
+
+th {
+  background-color: #489d2d;
+  color: white;
+}
+
+/* The striped table effect */
+tr:nth-child(even) {
+  background-color: white;
+}
+
