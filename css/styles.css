@@ -1,6 +1,6 @@
 body {
-  background: rgb(240,240,240);
-  color: rgb(20,20,20);
+  background: #f0f0f0;
+  color: #141414;
   font-family: Helvetica, sans-serif;
   margin: 0;
 }
@@ -23,7 +23,9 @@ a {
   text-decoration: none;
 }
 
-ul {
+/* Navbar related CSS. I used https://www.w3schools.com/css/css_navbar.asp to help create navbar.*/
+
+nav > ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -31,7 +33,7 @@ ul {
   background-color: #489d2d;
 }
 
-li {
+nav ul > li {
   float: left;
   font-weight: 900;  
 }
@@ -43,7 +45,7 @@ li {
   font-weight: 900;  
 }
 
-li a {
+nav li > a {
   display: block;
   color: white;
   text-align: center;
@@ -56,7 +58,7 @@ li a {
 }
 
 /* Change the link color on hover */
-li a:hover {
+nav li > a:hover {
   background-color: #faec50;
   color: black;
 }
@@ -124,6 +126,8 @@ li a:hover {
   background-image: url("../images/splash-donate.jpg");
 }
 
+/* The content card (used as a CTA on the index). Used LeWagon's tutorial in part here: http://lewagon.github.io/landing/ */
+
 .content-card {
   margin: 20px;
   padding: 20px;
@@ -177,6 +181,11 @@ input[type=submit]:hover {
   color: black;
 }
 
+.contact-content-wrapper{
+  width: auto;
+  height: 100%;
+}
+
 /* Add a background color and some padding around the form */
 #form-div {
   border-radius: 5px;
@@ -185,6 +194,15 @@ input[type=submit]:hover {
 
 textarea {
   resize: none;
+}
+
+#useful-links li {
+  list-style-type: none;
+}
+
+#useful-links img {
+  width: 15%;
+  height: 15%;
 }
 
 

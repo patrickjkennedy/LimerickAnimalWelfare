@@ -4,6 +4,7 @@
         <link rel="stylesheet" href="css/styles.css">
     </head>
     <body>
+      <nav>
         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About</a></li>
@@ -11,28 +12,40 @@
             <li><a href="contact.html">Contact</a></li>
             <li id="donate"><a href="donate.html">Donate</a></li>
         </ul>
+      </nav>
+      
+      <div class="banner" id="banner-contact">
+        <h1>Contact Us</h1>
+        <p>We want to hear from you</p>
+      </div>
         
-        <div class="banner" id="banner-contact">
-          <h1>Contact Us</h1>
-          <p>We want to hear from you</p>
-        </div>
-        
-        <div id="form-div">
-          <!-- Used tutorial from https://www.w3schools.com/howto/howto_css_contact_form.asp as a basis -->
-          <form action="#">
+      <div id="form-div">
+      <!-- Used tutorial from https://www.w3schools.com/howto/howto_css_contact_form.asp as a basis -->
+        <form action="#">
             
-            <label>Name</label>
-            <input type="text" id="name" placeholder="Your name..">
+          <label>Name</label>
+          <input type="text" id="name" placeholder="Your name..">
             
 
-            <label>Message</label>
-            <textarea id="subject" placeholder="Looking forward to hearing from you..."></textarea>
-            <input type="submit" value="Send">
+          <label>Message</label>
+          <textarea id="subject" placeholder="Looking forward to hearing from you..."></textarea>
+          <input type="submit" value="Send">
       
-          </form>
-        </div>
+        </form>
+      </div>
+      
+      <div id="useful-links">
+        <h2>Useful Links</h2>
+        <ul>
+          <li><a href="https://search.benefacts.ie/org/ef2fbb5d-37ac-491c-af6e-645e4b8db903/limerick-animal-welfare-company-limited-by-guarantee"><img src="images/benefacts.png" /></a></li>
+          <li><a href="https://www.facebook.com/pages/category/Nonprofit-Organization/Limerick-Animal-Welfare-212914858726221/"><img src="images/facebook.png" /></a></li>
+          <li><a href="https://www.google.com/maps/place/Kilfinnane,+Kilfinane,+Co.+Limerick/@52.3586889,-8.4760335,15z/data=!3m1!4b1!4m5!3m4!1s0x4844ab76f928f139:0xa00c7a997318900!8m2!3d52.3586898!4d-8.4672787"><img src="images/google-maps.png" /></a></li>
+        </ul>
+      </div>
+      
       <footer> 
         <p>Made with &hearts; by Patrick Kennedy for UCD COMP30680 Web App Dev Assignment 1</p>
       </footer>
+      
     </body>
 </html>
