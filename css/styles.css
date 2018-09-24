@@ -53,7 +53,7 @@ nav li > a:hover {
 }
 
 .active{
-  background-color: white;
+  background-color: #f0f0f0;
   color: #141414
 }
 
@@ -79,14 +79,10 @@ nav li > a:hover {
 }
 
 #banner-donate-link {
-  background: white;
+  background: #faec50;
   border-radius: 5px;
   padding: 25px;
   font-weight: 900;
-}
-
-#banner-donate-link:hover {
-  background-color: #faec50;
 }
 
 /* Page-specific banner properties (e.g. image path)*/
