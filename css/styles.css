@@ -57,6 +57,13 @@ nav li > a:hover {
   color: #141414
 }
 
+/* Responsive navbar (adapted from https://www.w3schools.com/css/tryit.asp?filename=trycss_navbar_horizontal_responsive*/
+@media screen and (max-width: 600px){
+  nav > ul li {
+    float: none;
+  }
+}
+
 /* General Banner properties */
 
 .banner {
