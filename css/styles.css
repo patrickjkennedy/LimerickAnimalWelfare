@@ -46,6 +46,14 @@ nav li > a {
   text-decoration: none;
 }
 
+.fa {
+  font-size: 20px;
+}
+
+.social-li {
+  float:right;
+}
+
 /* Change the link color on hover */
 nav li > a:hover {
   background-color: #f0f0f0;
@@ -60,6 +68,9 @@ nav li > a:hover {
 /* Responsive navbar (adapted from https://www.w3schools.com/css/tryit.asp?filename=trycss_navbar_horizontal_responsive*/
 @media screen and (max-width: 600px){
   nav > ul li {
+    float: none;
+  }
+  .social-li {
     float: none;
   }
 }
