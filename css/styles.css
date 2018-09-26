@@ -149,6 +149,12 @@ footer {
 
 #about-div iframe {
   padding: 20px;
+  display: inline-block;
+}
+
+#about-summary {
+  display: inline-block;
+  
 }
 
 /* Contact page CSS (used https://www.w3schools.com/howto/howto_css_contact_form.asp as a basis) */
@@ -188,7 +194,8 @@ input[type=submit]:hover {
 /* Add a background color and some padding around the form */
 #form-div {
   border-radius: 5px;
-  padding: 50px;
+  padding: 100px;
+  display: inline-block;
 }
 
 textarea {
@@ -200,8 +207,12 @@ textarea {
 }
 
 #useful-links img {
-  width: 15%;
-  height: 15%;
+  width: 200px;
+  height: 60px;
+}
+
+div#useful-links {
+  display: inline-block;
 }
 
 
