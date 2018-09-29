@@ -150,11 +150,18 @@ footer {
 #about-div iframe {
   padding: 20px;
   display: inline-block;
+  border: none;
 }
 
 #about-summary {
   display: inline-block;
   
+}
+
+.emph {
+  font-style: italic;
+  font-weight: 800;
+  color: #489d2d;
 }
 
 /* Contact page CSS (used https://www.w3schools.com/howto/howto_css_contact_form.asp as a basis) */
