@@ -1,7 +1,7 @@
-# COMP30680 Web Application Development Assignment 1: HTML and CSS
-## Limerick Animal Welfare - A Charity Website
+# COMP30680 Web Application Development 
+## Assignment 1: HTML and CSS
 
-For my submission, I decided to take a charity which I care about and improve the design of their existing website. [Limerick Animal Welfare](http://www.limerickanimalwelfare.ie/) are a no-kill animal shelter, located approximately 30 miles from Limerick City. In addition to their animal rescue, they promote the humane treatment of animals throughout society.
+For my submission, I decided to take a charity with a mission that resonates with me and improve the design of their existing website. [Limerick Animal Welfare](http://www.limerickanimalwelfare.ie/) are a no-kill animal shelter, located approximately 30 miles from Limerick City. In addition to their animal rescue, they promote the humane treatment of animals throughout society.
 
 Throughout my submission, I've endeavoured to seperate content and styling by using appropriate, valid HTML and CSS. In particular the assignment requested the use of the following.
 
@@ -35,7 +35,15 @@ My HTML5 specific elements include
 3. A `<header>` element that includes the introductory content for that page (e.g. contact.html, line 25)
 4. A `<footer>` element (index.html, line 46)
 
-My external stylesheet, styles.css, includes numerous CSS selectors and CSS properties.
+My external stylesheet, styles.css, includes numerous CSS selectors and CSS properties. Some elements introduced in CSS3 are
+
+1. `border-radius` is used to produce the rounded corners on my cards and on the 'Donate' button on the index (styles.css, line 101).
+
+2. `opacity` is used to make the banner description tag-line more visually interesting (styles.css, line 95).
+
+3. `box-shadow` is used to create shadows around elements (styles.css, line 135).
+
+4. `transition` is used to change the background colour and text colour of my large Donate button (styles.css TODO FIX ME).
 
 ### Make use of the CSS positional properties (e.g. position, float)
 
@@ -64,7 +72,9 @@ In going beyond the parts of HTML and CSS described in class, I wanted to furthe
 
 ### Responsive Design
 
-TODO: Include media queries and how I tested on Google Chrome Dev Tools etc.
+To make my website more responsive, I created new styling for devices with widths less than 600px (e.g. smartphone devices). I switch to smaller versions of my banner images which display better, and added some opaque background to texts to make them more readable.
+
+TODO: Create dropdown for mobile layouts
 
 ### Accessibility
 

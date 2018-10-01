@@ -97,10 +97,18 @@ nav li > a:hover {
 }
 
 #banner-donate-link {
-  background: #faec50;
+  background: #489d2d;
   border-radius: 5px;
   padding: 25px;
   font-weight: 900;
+  transition: all 0.3s ease 0s;
+  color: #f0f0f0;
+  font-size: 24px;
+}
+
+#banner-donate-link:hover {
+  background: #faec50;
+  color: #141414;
 }
 
 /* Page-specific banner properties (e.g. image path)*/
@@ -123,6 +131,54 @@ nav li > a:hover {
 
 #banner-donate {
   background-image: url("../images/splash-donate.jpg");
+}
+
+@media screen and (max-width: 600px){
+  #banner-index {
+    background-image: url("../images/splash-index-small.jpg");
+  }
+  
+  #banner-gallery {
+    background-image: url("../images/splash-gallery-small.jpg");
+  }
+
+  #banner-about {
+    background-image: url("../images/splash-about-small.jpg");
+  }
+
+  #banner-contact {
+    background-image: url("../images/splash-contact-small.jpg");
+  }
+
+  #banner-donate {
+    background-image: url("../images/splash-donate-small.jpg");
+  }
+  
+  .banner {
+    padding: 100px;
+    text-align: center;
+    color: white;
+  }
+  
+  .banner h1 {
+    font-weight: 400;
+    background: #489d2d;
+    border-radius: 5px;
+    opacity: 0.9;
+  }
+  
+  .banner p {
+    font-weight: 200;
+    letter-spacing: 2px;
+    margin-bottom: 100px;
+    background: #489d2d;
+    padding:10px;
+  }
+  
+  section#useful-links {
+    margin-left: 50px; 
+  }
+  
 }
 
 /* The content card (used as a CTA on the index). Used LeWagon's tutorial in part here: http://lewagon.github.io/landing/ */
