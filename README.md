@@ -74,10 +74,14 @@ In going beyond the parts of HTML and CSS described in class, I wanted to furthe
 
 To make my website more responsive, I created new styling for devices with widths less than 600px (e.g. smartphone devices). I switch to smaller versions of my banner images which display better, and added some opaque background to texts to make them more readable.
 
-TODO: Create dropdown for mobile layouts
-
 ### Accessibility
 
-TODO: Include semantic html for all elements, test with a screenreader etc.
+I was curious to see how my website might be viewed by blind or low-vision users. According to the World Health Organization, [an estimated 253 million people live with vision impairment](http://www.who.int/news-room/fact-sheets/detail/blindness-and-visual-impairment). As developers, we should make every effort to design equitable digital spaces. To test my site, I used the inbuilt VoiceOver programme on macOS Mojave. After an initial scan through of my page (by using the read page command - `Control+Option+A`), I made the following adjustments.
 
+1. Added `alt` attributes to my images.
+2. For background images, I added `aria-label` to my `header` tags.
+3. Added `title` attributes to my social links. This gives a way to describe non-text links.
 
+## Attribution
+
+Code samples and snippets from external sources are referenced as such in the code. The images are from Pexels, [and are free for personal and commercial purposes](https://www.pexels.com/photo-license/). The home and heart images from index.html are from [Nucleo's free pack](https://nucleoapp.com/).
