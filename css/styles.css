@@ -198,6 +198,16 @@ footer {
   text-align: center;
 }
 
+/* Hide the word 'love' for sighted users. This is the styling recommended by https://webaim.org/techniques/css/invisiblecontent/*/
+.hidden {
+  position:absolute;
+  left:-10000px;
+  top:auto;
+  width:1px;
+  height:1px;
+  overflow:hidden;
+}
+
 /* About Page CSS*/
 #about-div {
   text-align: center;
