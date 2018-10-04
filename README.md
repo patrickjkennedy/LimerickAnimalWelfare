@@ -72,7 +72,7 @@ In going beyond the parts of HTML and CSS described in class, I wanted to furthe
 
 ### Responsive Design
 
-To make my website more responsive, I created new styling for devices with widths less than 600px (e.g. smartphone devices). I switch to smaller versions of my banner images which display better, and added some opaque background to texts to make them more readable.
+To make my website more responsive, I created new styling for devices with widths less than 600px (e.g. smartphone devices). I switch to smaller versions of my banner images which display better, and added some opaque background to texts to make them more readable. I also switch to a vertical navigation bar on smaller displays.
 
 ### Accessibility
 
@@ -81,7 +81,15 @@ I was curious to see how my website might be viewed by blind or low-vision users
 1. Added `alt` attributes to my images.
 2. For background images, I added `aria-label` to my `header` tags.
 3. Added `title` attributes to my social links. This gives a way to describe non-text links.
+4. Added a `<span>` tag to my footer with the text 'love' and then hid that using CSS. This allows the screenreader to not lose the meaning of the sentence for blind or low-vision users.
+5. Added hidden `<h2>` tags that describe content contained within `<section>` tags. These overly verbose headings are hidden from sighted users.
+
+To recreate my screen-reader test on macOS:
+
+1. Enable "VoiceOver" from "System Preferences/Accessibility".
+2. To start VoiceOver hold `Command + F5`.
+3. With my site open, hold `Control + Option + A` for VoiceOver to begin reading the page.
 
 ## Attribution
 
-Code samples and snippets from external sources are referenced as such in the code. The images are from Pexels, [and are free for personal and commercial purposes](https://www.pexels.com/photo-license/). The home and heart images from index.html are from [Nucleo's free pack](https://nucleoapp.com/).
+Code samples and snippets from external sources are referenced as such as comments in the HTML and CSS. The images are from Pexels, [and are free for personal and commercial purposes](https://www.pexels.com/photo-license/). The home and heart images from index.html are from [Nucleo's free pack](https://nucleoapp.com/).

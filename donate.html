@@ -1,12 +1,16 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 	<head>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <!-- Import Google Fonts -->
-      <link href="https://fonts.googleapis.com/css?family=Open+Sans|Pacifico" rel="stylesheet">
+      <!-- Import Google Fonts (I've split this into two imports as '|' is invalid in href according to https://validator.w3.org/-->
+      <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
       <!-- Import Social Icons (as per https://www.w3schools.com/howto/howto_css_social_media_buttons.asp) -->
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
       <link rel="stylesheet" href="css/styles.css">
+      <!-- Declate character set-->
+      <meta charset="UTF-8">
+      <title>Limerick Animal Welfare - Donate</title>
     </head>
     <body>
       <nav>
@@ -28,6 +32,7 @@
         </header>
       
         <section id="donation-table">
+          <h2 class="hidden">Donation table</h2>
           <table>
             <tr>
               <th>Donation Amount</th>
@@ -60,9 +65,13 @@
           </table>
         </section>
       
-        <section><p>For more details on donating and fundraising, <a href="https://www.idonate.ie/573_limerick-animal-welfare.html">please visit our iDonate page.</a> To make a one-off donation right away, you can do so below.</p></section>
+        <section>
+          <h2 class="hidden">Further donation and fundraising details</h2>
+          <p>For more details on donating and fundraising, <a href="https://www.idonate.ie/573_limerick-animal-welfare.html">please visit our iDonate page.</a> To make a one-off donation right away, you can do so below.</p>
+        </section>
       
         <section id="form-div">
+          <h2 class="hidden">Donation Form</h2>
           <form action="#">
             
             <label>Amount (Required)</label>
@@ -73,10 +82,10 @@
             <textarea id="subject" placeholder="Thank you for your donation"></textarea>
             
             <label>Donor Name (Required)</label>
-            <textarea type="text" id="name" placeholder="Donor Name" required></textarea>
+            <textarea id="name" placeholder="Donor Name" required></textarea>
             
             <label>Email (Required)</label>
-            <textarea type="text" id="name" placeholder="Donor Email" required></textarea>
+            <textarea id="email" placeholder="Donor Email" required></textarea>
             
             <input type="submit">
       
