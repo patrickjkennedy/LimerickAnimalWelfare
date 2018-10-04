@@ -44,6 +44,7 @@ nav li > a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  transition: all 0.3s ease 0s;
 }
 
 .fa {
@@ -250,6 +251,7 @@ input[type=submit] {
   border: none;
   border-radius: 5px;
   font-weight: 900;
+  transition: all 0.3s ease 0s;
 }
 
 /* When moving the mouse over the submit button, add a darker green color */
