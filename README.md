@@ -7,43 +7,43 @@ Throughout my submission, I've endeavoured to seperate content and styling by us
 
 ### Links to both my own pages and external webpages
 
-My navigation bar (e.g. index.html, lines 13-24) includes links to both my own pages, as well as external sites such as Facebook, Instagram and Google Maps. I also include a link to my Donate page in my landing page banner (index.html, line 30), as well as external links in my Contact page (contact.html, lines 48-50)
+My navigation bar (e.g. index.html, lines 16-27) includes links to both my own pages, as well as external sites such as Facebook, Instagram and Google Maps. I also include a link to my Donate page in my landing page banner (index.html, line 33), as well as external links in my Contact page (contact.html, lines 51-58)
 
 ### A navigation bar
 
-My navigation bar is positioned on the top of each page's layout. What differs is that I created an 'active' css class to highlight which page is being displayed. You can find an example of my nav element in my index page (index.html, lines 13-24).
+My navigation bar is positioned on the top of each page's layout. What differs is that I created an `active` class to highlight which page is being displayed. You can find an example of my `<nav>` element in my index page (index.html, lines 16-27).
 
 ### A least one table
 
-I've included a table on the Donation page (donate.html, lines 30-61) listing what your money goes toward funding.
+I've included a table on the Donation page (donate.html, lines 36-65) listing what your money goes toward funding.
 
 ### At least one list (ordered or unordered)
 
 My site includes two unordered lists:
 1. The navigation bar is an unordered list that has been formatted with CSS.
-2. The *Useful Links* section of my Contact page (contact.html, lines 45-52) is an unordered list of image links.
+2. The *Useful Links* section of my Contact page (contact.html, lines 53-57) is an unordered list of image links.
 
 ### At least one local or embedded video
 
-There is an embedded Youtube video on my About page (about.html, line 32).
+There is an embedded Youtube video on my About page (about.html, line 36).
 
 ### At least four CSS3 and four HTML5 elements
 
 My HTML5 specific elements include
-1. A `<nav>` element (index.html, line 13)
-2. A `<section>` element (index.html , line 26)
-3. A `<header>` element that includes the introductory content for that page (e.g. contact.html, line 25)
-4. A `<footer>` element (index.html, line 46)
+1. A `<nav>` element (index.html, line 16)
+2. A `<section>` element (index.html , line 37)
+3. A `<header>` element that includes the introductory content for that page (contact.html, line 29)
+4. A `<footer>` element (index.html, line 49)
 
 My external stylesheet, styles.css, includes numerous CSS selectors and CSS properties. Some elements introduced in CSS3 are
 
-1. `border-radius` is used to produce the rounded corners on my cards and on the 'Donate' button on the index (styles.css, line 101).
+1. `border-radius` is used to produce the rounded corners on my cards and on the 'Donate' button on the index (styles.css, line 102).
 
-2. `opacity` is used to make the banner description tag-line more visually interesting (styles.css, line 95).
+2. `opacity` is used to make the banner description tag-line more visually interesting (styles.css, line 96).
 
-3. `box-shadow` is used to create shadows around elements (styles.css, line 135).
+3. `box-shadow` is used to create shadows around elements (styles.css, line 192).
 
-4. `transition` is used to change the background colour and text colour of my large Donate button (styles.css TODO FIX ME).
+4. `transition` is used to change the background colour and text colour of my large Donate button (styles.css, line 105).
 
 ### Make use of the CSS positional properties (e.g. position, float)
 
