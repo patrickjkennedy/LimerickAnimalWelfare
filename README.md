@@ -3,7 +3,7 @@
 
 For my submission, I decided to take a charity with a mission that resonates with me and improve the design of their existing website. [Limerick Animal Welfare](http://www.limerickanimalwelfare.ie/) are a no-kill animal shelter, located approximately 30 miles from Limerick City. In addition to their animal rescue, they promote the humane treatment of animals throughout society.
 
-Throughout my submission, I've endeavoured to seperate content and styling by using appropriate, valid HTML and CSS. In particular the assignment requested the use of the following.
+In my submission, I've endeavoured to seperate content and styling by using appropriate, valid HTML and CSS. In particular the assignment requested the use of the following.
 
 ### Links to both my own pages and external webpages
 
@@ -64,7 +64,7 @@ I use the CSS positional property `float: left` in creating my navigation bar. I
 There are several examples of explicitly declaring elements' `display` properties in my external stylesheet. For instance:
 1. `nav li > a` is set to `display:block`.
 2. My Contact page consists of two inline-block elements wrapped in an enclosing `div` element. This allows me to set the height and width of these elements while displaying them in-line on larger screens.
-3. I use inline `span` elements for adding emphasis to copy (e.g. about.html, line 35)
+3. I use inline `span` elements for adding emphasis to copy (e.g. about.html, line 40)
 
 ## Additional Features of HTML and CSS
 
@@ -79,7 +79,7 @@ To make my website more responsive, I created new styling for devices with width
 I was curious to see how my website might be viewed by blind or low-vision users. According to the World Health Organization, [an estimated 253 million people live with vision impairment](http://www.who.int/news-room/fact-sheets/detail/blindness-and-visual-impairment). As developers, we should make every effort to design equitable digital spaces. To test my site, I used the inbuilt VoiceOver programme on macOS Mojave. After an initial scan through of my page (by using the read page command - `Control + Option + A`), I made the following adjustments.
 
 1. Added `alt` attributes to my images.
-2. For background images, I added `aria-label` to my `header` tags.
+2. For background images, I added `aria-label` to my `<header>` tags.
 3. Added `title` attributes to my social links. This gives a way to describe non-text links.
 4. Added a `<span>` tag to my footer with the text 'love' and then hid that using CSS. This allows the screenreader to not lose the meaning of the sentence for blind or low-vision users.
 5. Added hidden `<h2>` tags that describe content contained within `<section>` tags. These overly verbose headings are hidden from sighted users.
