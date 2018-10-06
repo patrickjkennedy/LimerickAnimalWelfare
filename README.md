@@ -76,7 +76,7 @@ To make my website more responsive, I created new styling for devices with width
 
 ### Accessibility
 
-I was curious to see how my website might be viewed by blind or low-vision users. According to the World Health Organization, [an estimated 253 million people live with vision impairment](http://www.who.int/news-room/fact-sheets/detail/blindness-and-visual-impairment). As developers, we should make every effort to design equitable digital spaces. To test my site, I used the inbuilt VoiceOver programme on macOS Mojave. After an initial scan through of my page (by using the read page command - `Control+Option+A`), I made the following adjustments.
+I was curious to see how my website might be viewed by blind or low-vision users. According to the World Health Organization, [an estimated 253 million people live with vision impairment](http://www.who.int/news-room/fact-sheets/detail/blindness-and-visual-impairment). As developers, we should make every effort to design equitable digital spaces. To test my site, I used the inbuilt VoiceOver programme on macOS Mojave. After an initial scan through of my page (by using the read page command - `Control + Option + A`), I made the following adjustments.
 
 1. Added `alt` attributes to my images.
 2. For background images, I added `aria-label` to my `header` tags.
