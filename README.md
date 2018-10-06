@@ -37,17 +37,17 @@ My HTML5 specific elements include
 
 My external stylesheet, styles.css, includes numerous CSS selectors and CSS properties. Some elements introduced in CSS3 are
 
-1. `border-radius` is used to produce the rounded corners on my cards and on the 'Donate' button on the index (styles.css, line 102).
+1. `border-radius` is used to produce the rounded corners on my cards and on the 'Donate' button on the index (styles.css, line 104).
 
-2. `opacity` is used to make the banner description tag-line more visually interesting (styles.css, line 96).
+2. `opacity` is used to make the banner description tag-line more visually interesting (styles.css, line 98).
 
-3. `box-shadow` is used to create shadows around elements (styles.css, line 192).
+3. `box-shadow` is used to create shadows around elements (styles.css, line 194).
 
-4. `transition` is used to change the background colour and text colour of my large Donate button (styles.css, line 105).
+4. `transition` is used to change the background colour and text colour of my large Donate button (styles.css, line 107).
 
 ### Make use of the CSS positional properties (e.g. position, float)
 
-I use the CSS positional property `float: left` in creating my navigation bar. I also make use of it again when changing the layout of the navbar on smaller screens (< 600px) (styles.css, line 72).
+I use the CSS positional property `float: left` in creating my navigation bar. I also make use of it again when changing the layout of the navbar on smaller screens (< 600px) (styles.css, line 74).
 
 ```
 @media screen and (max-width: 600px){

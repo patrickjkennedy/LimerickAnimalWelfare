@@ -1,3 +1,5 @@
+/* Used this tutorial in part here (e.g. off-black and off-white color value recommendations): http://lewagon.github.io/landing/ */
+
 body {
   background: #f0f0f0;
   color: #141414;
@@ -259,11 +261,6 @@ input[type=submit]:hover {
   background-color: #faec50;
   font-weight: 900;
   color: black;
-}
-
-.contact-content-wrapper{
-  width: auto;
-  height: 100%;
 }
 
 /* Add a background color and some padding around the form */
