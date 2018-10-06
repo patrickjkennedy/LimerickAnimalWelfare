@@ -3,7 +3,7 @@
 
 For my submission, I decided to take a charity with a mission that resonates with me and improve the design of their existing website. [Limerick Animal Welfare](http://www.limerickanimalwelfare.ie/) are a no-kill animal shelter, located approximately 30 miles from Limerick City. In addition to their animal rescue, they promote the humane treatment of animals throughout society.
 
-In my submission, I've endeavoured to seperate content and styling by using appropriate, valid HTML and CSS. In particular the assignment requested the use of the following.
+In my submission, I've endeavoured to separate content and styling by using appropriate, valid HTML and CSS. In particular the assignment requested the use of the following.
 
 ### Links to both my own pages and external webpages
 
@@ -47,7 +47,7 @@ My external stylesheet, styles.css, includes numerous CSS selectors and CSS prop
 
 ### Make use of the CSS positional properties (e.g. position, float)
 
-I use the CSS positional property `float: left` in creating my navigation bar. I also make use of it again when changing the layout of the navbar on smaller screens (< 600px).
+I use the CSS positional property `float: left` in creating my navigation bar. I also make use of it again when changing the layout of the navbar on smaller screens (< 600px) (styles.css, line 72).
 
 ```
 @media screen and (max-width: 600px){
@@ -70,11 +70,11 @@ There are several examples of explicitly declaring elements' `display` propertie
 
 In going beyond the parts of HTML and CSS described in class, I wanted to further explore two important aspects of modern design for the web, responsive design and accessibility.
 
-### Responsive Design
+## Responsive Design
 
 To make my website more responsive, I created new styling for devices with widths less than 600px (e.g. smartphone devices). I switch to smaller versions of my banner images which display better, and added some opaque background to texts to make them more readable. I also switch to a vertical navigation bar on smaller displays.
 
-### Accessibility
+## Accessibility
 
 I was curious to see how my website might be viewed by blind or low-vision users. According to the World Health Organization, [an estimated 253 million people live with vision impairment](http://www.who.int/news-room/fact-sheets/detail/blindness-and-visual-impairment). As developers, we should make every effort to design equitable digital spaces. To test my site, I used the inbuilt VoiceOver programme on macOS Mojave. After an initial scan through of my page (by using the read page command - `Control + Option + A`), I made the following adjustments.
 
@@ -92,4 +92,4 @@ To recreate my screen-reader test on macOS:
 
 ## Attribution
 
-Code samples and snippets from external sources are referenced as such as comments in the HTML and CSS. The images are from Pexels, [and are free for personal and commercial purposes](https://www.pexels.com/photo-license/). The home and heart images from index.html are from [Nucleo's free pack](https://nucleoapp.com/).
+Code samples and content (such as copy) from external sources are referenced as such as comments in the HTML and CSS. The images are from Pexels, [and are free for personal and commercial purposes](https://www.pexels.com/photo-license/). The home and heart images from index.html are from [Nucleo's free pack](https://nucleoapp.com/).
